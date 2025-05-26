@@ -46,7 +46,7 @@ astro dev ps
 # View logs
 astro dev logs
 ```
-![AstroDevStart]([images\astroDevStart.png](https://github.com/hrishikesh26/Astro_Airflow_Postgres_ETL/blob/main/images/astroDevStart.png))
+![AstroDevStart](https://github.com/hrishikesh26/Astro_Airflow_Postgres_ETL/blob/main/images/astroDevStart.png)
 
 ### Image Description
 
@@ -79,7 +79,7 @@ astro dev restart
 - **Transform**: Processes the raw weather data into structured format
 - **Load**: Stores the transformed data in PostgreSQL database
 
-![AriflowDash]([images\airflow_success_dash.png](https://github.com/hrishikesh26/Astro_Airflow_Postgres_ETL/blob/main/images/airflow_success_dash.png))
+![AriflowDash](https://github.com/hrishikesh26/Astro_Airflow_Postgres_ETL/blob/main/images/airflow_success_dash.png)
 
 This snapshot demonstrates successfull running of the ETL pipline after setting up the connections.
 
@@ -109,7 +109,7 @@ The project uses Docker Compose with two main services:
 1. **Airflow**: Managed by Astro CLI
 2. **PostgreSQL**: Runs on port 5432
    
-![PostgresDockerContainer]([images\postgresdocker.png](https://github.com/hrishikesh26/Astro_Airflow_Postgres_ETL/blob/main/images/postgresdocker.png))
+![PostgresDockerContainer](https://github.com/hrishikesh26/Astro_Airflow_Postgres_ETL/blob/main/images/postgresdocker.png)
 
 ## Monitoring
 - Access Airflow UI: `http://localhost:8080`
@@ -133,5 +133,5 @@ This particular snapshot shows how the database is constantly updated with manua
 - *Airflow Uses PostgreSQL as Metadata Storage* – Airflow needs a database to store metadata like DAG runs, task instances, logs, and configurations. Many Airflow setups include PostgreSQL or MySQL for this purpose.
 - *Dockerized Environments Are Isolated* – If you're running Airflow in Docker, it likely spun up a PostgreSQL container as part of the Astro dev setup, which helps keep all dependencies self-contained.
 
-![PostgresDatabase]([images\dbviewer.png](https://github.com/hrishikesh26/Astro_Airflow_Postgres_ETL/blob/main/images/dbviewer.png))
+![PostgresDatabase](https://github.com/hrishikesh26/Astro_Airflow_Postgres_ETL/blob/main/images/dbviewer.png)
 >>>>>>> 47fd663 (initil commit: Adding my ETL project)
