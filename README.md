@@ -134,4 +134,4 @@ This particular snapshot shows how the database is constantly updated with manua
 - *Dockerized Environments Are Isolated* – If you're running Airflow in Docker, it likely spun up a PostgreSQL container as part of the Astro dev setup, which helps keep all dependencies self-contained.
 
 ![PostgresDatabase](https://github.com/hrishikesh26/Astro_Airflow_Postgres_ETL/blob/main/images/dbviewer.png)
->>>>>>> 47fd663 (initil commit: Adding my ETL project)
+
